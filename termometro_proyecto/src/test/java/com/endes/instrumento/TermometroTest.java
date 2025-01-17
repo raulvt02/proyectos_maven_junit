@@ -1,15 +1,19 @@
 package com.endes.instrumento;
 
-import junit.framework.TestCase;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class TermometroTest extends TestCase {
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
-	protected void setUp() throws Exception {
-		super.setUp();
+class TermometroTest {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
 	}
 
-	protected void tearDown() throws Exception {
-		super.tearDown();
+	@Test
+	void test() {
+		fail("Not yet implemented");
 	}
 
 }
